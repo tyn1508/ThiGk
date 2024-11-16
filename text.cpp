@@ -1,10 +1,9 @@
 #include <iostream>
-using namespace std ;
-void main(){
-    int x;
-    nhapso(x);
-}
-void nhapso(int a){
-    cout<<"\nNhap vao so a: ";
-    cin>>a;
+using namespace std;
+
+void main() {
+	int a;
+	cout << "nhap vao so nguyen a: ";
+	cin >> a;
+	cout << "\n Gia tri so a=[" << a << "]";
 }
